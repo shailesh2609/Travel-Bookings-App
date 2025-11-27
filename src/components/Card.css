@@ -1,0 +1,63 @@
+.card{
+    width: 340px;
+    /* border: 2px solid  black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    /* padding-top: 15px; */
+
+}
+
+
+.tour-para{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-left: 14px; */
+   /* margin-right: 14px; */
+
+}
+.tour-price{
+ color: rgb(6, 124, 59);
+font-weight:bold;
+font-size: 20px;
+ 
+}
+.tour-name{
+    font-weight: 900;
+    font-size: 30px;
+    /* color: blue; */
+}
+.tour-des{
+    font-size: 18px;
+}
+.read-more{
+    text-transform: capitalize;
+    color: rgb(40, 134, 189);
+    cursor: pointer;
+}
+.remove-btn{
+    background-color: #fff5f5;
+    outline: none;
+    cursor: pointer;
+border: 1px solid red;
+    border-radius: 10px;
+    font-size: larger;
+    /* padding: 12px; */
+     padding-left: 50px; 
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    transition:  0.3s ease;
+
+
+}
+.remove-btn:hover{
+    background-color: red;
+}
