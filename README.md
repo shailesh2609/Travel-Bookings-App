@@ -1,4 +1,4 @@
-# Travel-Bookings-Appy
+# Travel-Bookings-App
 A simple React.js project that displays a list of tours with details in card format. Users can view tour information and remove tours from the list.
 # Features
 - **Display tours with image, name, info, and price.**
